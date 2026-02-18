@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clasificación de Polímeros</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="app">
+    <h1>Clasificación de Polímeros</h1>
+
+    <div id="quiz-container">
+      <h2 id="question">Pregunta aquí</h2>
+      <div id="answers" class="answers"></div>
+      <button id="next-btn" class="hidden">Siguiente</button>
+    </div>
+
+    <div id="result-container" class="hidden">
+      <h2>Resultado Final</h2>
+      <p id="score"></p>
+      <button onclick="restartQuiz()">Reintentar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
